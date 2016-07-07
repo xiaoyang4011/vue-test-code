@@ -1,0 +1,20 @@
+{
+  "name": "vue-test-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyang4011/vue-test-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyang4011/vue-test-code/issues"
+  },
+  "homepage": "https://github.com/xiaoyang4011/vue-test-code#readme"
+}
