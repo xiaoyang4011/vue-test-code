@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,29 @@
   "bugs": {
     "url": "https://github.com/xiaoyang4011/vue-test-code/issues"
   },
-  "homepage": "https://github.com/xiaoyang4011/vue-test-code#readme"
+  "homepage": "https://github.com/xiaoyang4011/vue-test-code#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^5.8.38",
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "vue": "^1.0.26",
+    "vuex": "^1.0.0-rc.2"
+  }
 }
